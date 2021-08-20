@@ -2659,7 +2659,7 @@ header.sticky .top-bar + .navbar.fixed-top { top: 0px; -webkit-transition-durati
 .top-logo .header-cart-icon a > i, .top-logo .header-cart-icon a > i, .top-logo .header-language a > i, .top-logo .header-search-icon a > i, .top-logo .header-push-button a > i { padding: 26px 0; }
 
 /* header responsive sticky */
-header.sticky .navbar.responsive-sticky .navbar-brand img { max-height: 32px; }
+header.sticky .navbar.responsive-sticky .navbar-brand img { max-height: 50px; }
 .sticky .navbar.responsive-sticky .navbar-nav .nav-link { padding: 18px 0; }
 .sticky .navbar.responsive-sticky .header-cart-icon a > i, .sticky .navbar.responsive-sticky .header-cart-icon a > i, .sticky .navbar.responsive-sticky .header-language a > i, .sticky .navbar.responsive-sticky .header-search-icon a > i, .sticky .navbar.responsive-sticky .header-push-button a > i{ padding: 20px 0; }
 .navbar.responsive-sticky .header-cart-icon a, .navbar.responsive-sticky .header-cart-icon a, .navbar.responsive-sticky .header-language a, .navbar.responsive-sticky .header-search-icon a, .navbar.responsive-sticky .header-push-button a { transition: none; -moz-transition: none; -webkit-transition: none; -ms-transition: none; -o-transition: none; }
