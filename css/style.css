@@ -2782,7 +2782,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 .top-bar.navbar-light .header-cart-icon > a:hover,
 .top-bar.navbar-light .header-language > a:hover, 
 .top-bar.navbar-light .top-bar-contact-list > a:hover, 
-.top-bar.navbar-light .header-language.dropdown-style-01 .btn:hover { color: rgba(255,255,255,.6) !important; cursor: pointer; }
+.top-bar.navbar-light .header-language.dropdown-style-01 .btn:hover { color: #8364ac) !important; cursor: pointer; }
 
 /* header navigation dark */
 .navbar.navbar-light .navbar-nav .nav-link.active,
