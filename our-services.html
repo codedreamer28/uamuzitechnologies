@@ -17,6 +17,22 @@
         <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <style>
+    
+        @media all and (min-width: 768px) {
+          .hidden-desktop {
+            display: none !important;
+           }
+         }
+
+      @media all and (max-width: 767px) {
+         .hidden-mobile {
+          display: none !important;
+       }
+     }
+     
+   
+     </style>
     </head>
     <body data-mobile-nav-style="classic">
         <!-- start header -->
@@ -26,11 +42,17 @@
                 
                 <div class="container-fluid nav-header-container">
                  <div class="col-auto col-sm-6 col-lg-2 mr-auto pl-lg-0">
-                        <a class="navbar-brand" href="index.html">
+                      <div id="mainlogo navbar-brand">
+                      <a class="main logo" href="index.html" title="Main Logo" alt="main logo">
+                        <img class="hidden-mobile" src="images/uamuzilogo.jpg" border="0" alt="" />
+                        <img class="hidden-desktop" src="images/uamuzitechmobile.png" border="0" alt="" />
+                      </a>
+                 </div>
+                        <!--<a class="navbar-brand" href="index.html">
                             <img src="images/uamuzilogo.jpg" data-at2x="images/logo-white@2x.png" class="default-logo" alt="" style="width:100%; height:auto; max-width: 300px;">
                             <img src="images/uamuzilogo.jpg" data-at2x="images/logo-greendark@2x.png" class="alt-logo" alt="" style="width:100%; height:auto; max-width: 300px;">
                             <img src="images/uamuzilogo.jpg" data-at2x="images/logoblack@2x.png" class="mobile-logo" alt="" style="width:100%; height:auto; max-width: 300px;">
-                        </a>
+                        </a>-->
                     </div>
                     <div class="col-auto menu-order">
                         <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
